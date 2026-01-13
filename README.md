@@ -6,17 +6,18 @@ Project Description
 
 This project demonstrates how the K-Nearest Neighbors (KNN) machine learning algorithm is used to classify iris flowers into three species—Setosa, Versicolor, and Virginica—based on their sepal and petal measurements. The model is trained and tested using the famous Iris dataset available in scikit-learn.
 
-Libraries Used
-Library	Purpose
-numpy	Numerical computations
-pandas	Data handling and analysis
-matplotlib	Data visualization
-seaborn	Statistical plots
-sklearn.datasets	Load Iris dataset
-sklearn.model_selection	Train-test split
-sklearn.neighbors	KNN classifier
-sklearn.metrics	Model evaluation
-Algorithm Used
+
+| Library                   | Purpose                    |
+| ------------------------- | -------------------------- |
+| `numpy`                   | Numerical computations     |
+| `pandas`                  | Data handling and analysis |
+| `matplotlib`              | Data visualization         |
+| `seaborn`                 | Statistical plots          |
+| `sklearn.datasets`        | Load Iris dataset          |
+| `sklearn.model_selection` | Train-test split           |
+| `sklearn.neighbors`       | KNN classifier             |
+| `sklearn.metrics`         | Model evaluation           |
+
 
 K-Nearest Neighbors (KNN)
 KNN classifies a data point based on the majority class of its K nearest neighbors using distance metrics such as Euclidean distance.
